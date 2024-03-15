@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style type="text/css">
+        .background {
+            background: lightgrey;
+        }
+
+        .head {
+            background: yellow;
+            position: 30px;
+            top: 30px;
+            left: 50px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-left: 115px;
+
+        }
+
+        .eyeball {
+            background: violet;
+            border-color: red;
+            border: 2px solid black;
+            position: absolute;
+            top: 30px;
+            left: 190px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        .pupil {
+            color: transparent;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 20px;
+            height: 20px;
+            background: black;
+            border-radius: 50%;
+            display: block;
+            margin: auto;
+        }
+
+        .beak {
+            position: absolute;
+            top: 70px;
+            left: 210px;
+            width: 20px;
+            height: 40px;
+            border-top: 20px;
+            border-bottom: 20px;
+            border-left: 40px;
+        }
+
+        .body {
+            position: relative;
+            top: 0;
+            left: 70px;
+            width: 200px;
+            height: 200px;
+            background: yellow;
+            border-radius: 50%;
+        }
+
+        .wing {
+            position: absolute;
+            top: 40px;
+            left: 0px;
+            width: 100px;
+            height: 100px;
+            background: blue;
+            border-radius: 50%;
+        }
+        .drumstick{
+            color: pink;
+        }
+        .drumstick {
+            position: absolute;
+            top: 220px;
+            left: 110px;
+            color: brown;
+            width: 20px;
+            height: 100px;
+        }
+
+        .drumstick-right {
+            color: pink;
+            background: black;
+            width: 20px;
+            height: 100px;
+            position: absolute;
+            top: 200px;
+            left: 200px;
+        }
+    </style>
+    <div class="canvas background">
+        <div class="air background"></div>
+        <div class="head">
+            <div class="eyeball">
+                <span class="pupil">&middot;</span>
+            </div>
+            <div class="beak">
+                <strong>&gt;</strong>
+            </div>
+        </div>
+        <div class="body">
+            <div class="wing">
+                <strong>&lt;</strong>
+            </div>
+        </div>
+        <div class="drumsticks">
+            <div class="drumsticks">|
+                <br />/|
+            </div>
+            <div class="drumsticks-right">|
+                <br />/|
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
