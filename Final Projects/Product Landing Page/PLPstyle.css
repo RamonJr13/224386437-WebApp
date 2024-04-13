@@ -2,7 +2,7 @@
 
 body {
   background-color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: cursive;
   color: #000;
 }
 
@@ -52,7 +52,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
+  background-color: white;
 }
 
 @media (max-width: 600px) {
